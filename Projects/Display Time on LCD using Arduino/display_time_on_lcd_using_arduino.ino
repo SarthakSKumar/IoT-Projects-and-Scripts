@@ -1,7 +1,7 @@
 
 //Circuit Connections:
-//connect SCL of the RTC with A3
-//connect SDA of the RTC with A2
+//connect SCL of the RTC with A5
+//connect SDA of the RTC with A4
 
 #include <LiquidCrystal.h>
 #include <Wire.h>
@@ -17,12 +17,12 @@ String day_name, mydate, mytime;
  
 // Pin out for 16x2 LCD
  
-#define rs 9 // rs to Pin 9 on Arduino
-#define en 8 // en to Pin 8 on Arduino
-#define d4 7 // d4 to Pin 7 on Arduino
-#define d5 6 // d5 to Pin 6 on Arduino
-#define d6 5 // d6 to Pin 5 on Arduino
-#define d7 4 // d7 to Pin 4 on Arduino
+#define rs 2 // rs to Pin 9 on Arduino
+#define en 3 // en to Pin 8 on Arduino
+#define d4 4 // d4 to Pin 7 on Arduino
+#define d5 5 // d5 to Pin 6 on Arduino
+#define d6 6 // d6 to Pin 5 on Arduino
+#define d7 7 // d7 to Pin 4 on Arduino
 
 // initialize the library with the numbers of the interface pins
 LiquidCrystal display(rs, en, d4, d5, d6, d7);
