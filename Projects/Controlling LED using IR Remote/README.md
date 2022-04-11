@@ -50,6 +50,6 @@ We will learn how to use IR remote
 ## Authors
 
 [Vaishnavi Ghiradkar] : https://github.com/vaishnavighiradkar
-[Sarthak S Kumar]] : https://github.com/SarthakSKumar
+[Sarthak S Kumar] : https://github.com/SarthakSKumar
 
 
