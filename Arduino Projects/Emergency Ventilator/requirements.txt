@@ -1,4 +1,4 @@
-| Component         | Quantity      |
+ | Component         | Quantity      |
 | ------------------| ------------- |
 | Arduino UNO       |  1            |
 | Breadboard        |  1            |
