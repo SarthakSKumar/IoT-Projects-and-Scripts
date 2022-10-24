@@ -2,6 +2,10 @@ body {
     background-color: rgb(40, 8, 70);
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .header-h1 {
     display: flex;
     justify-content: center;
