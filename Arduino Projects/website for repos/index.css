@@ -10,12 +10,9 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: white;
-    width: 50vw;
-    height: 50px;
-    position: absolute;
-    top: 60px;
-    left: 23%;
 }
 
 .items {
@@ -24,8 +21,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 23%;
-    top: 130px;
+    left: 25%;
     width: 50vw;
     height: 50px;
     border-radius: 30px;
@@ -49,4 +45,13 @@ body::-webkit-scrollbar {
     color: white;
     background: blue;
     cursor: pointer;
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
