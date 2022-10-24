@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(40, 8, 70);
+}
+
+.header-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50vw;
+    height: 50px;
+    position: absolute;
+    top: 60px;
+    left: 23%;
+}
+
+.items {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 23%;
+    top: 130px;
+    width: 50vw;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.items a{
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.items:hover {
+    color: white;
+    background: blue;
+    cursor: pointer;
+}
+
+.items:active {
+    color: white;
+    background: blue;
+    cursor: pointer;
+}
