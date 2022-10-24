@@ -50,8 +50,3 @@ body::-webkit-scrollbar {
 footer {
     background-color: blueviolet;
 }
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
