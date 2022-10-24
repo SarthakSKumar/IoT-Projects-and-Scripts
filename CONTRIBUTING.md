@@ -8,7 +8,7 @@ I'm happy to welcome all the contributions from anyone willing to add new script
 
 ## 💻Before Contributing
 
-Welcome to [SarthakSKumar/Arduino=Projects-and-Scripts](https://github.com/SarthakSKumar/Arduino-Projects-and-Scripts). Before sending your pull requests, make sure that you **read the whole
+Welcome to [SarthakSKumar/Arduino-Projects-and-Scripts](https://github.com/SarthakSKumar/Arduino-Projects-and-Scripts). Before sending your pull requests, make sure that you **read the whole
 guidelines**. If you have any doubt about the contributing guide, please feel free to reach out.
 
 
