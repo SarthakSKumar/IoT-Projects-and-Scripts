@@ -59,3 +59,40 @@ To write code for LED blinking using ESP32, first, you need to understand three 
 -   **delay(value) :** This function is used to generate delay in mili seconds. If you want to add a delay of one second between turning on and turning off a LED, you will use this state delay(1000).
 -   **setup( ) :** In Arduino IDE, setup function is used for declaration or initialization. A pinMode function is used for declaration of digital pins. So it will be defined inside setup function. It will become more clear when you see the example code at the end of this article.
 -   **Loop( ) :** In Arduino IDE, loop function is like a main function in c programming. In c programming whenever, you want to perform certain tasks again and again, we use those c statements inside the loop. Similarly, we use loop function in Arduino IDE to perform certain tasks again and again.
+
+### Code
+
+This code is used to blink LED connected with pin number 22 with a delay of one second.
+
+```c
+void setup()
+{
+pinMode(22, OUTPUT); // Set GPIO22 as digital output pin
+}
+
+void loop() 
+{
+digitalWrite(22, HIGH); // Set GPIO22 active high
+delay(1000);  // delay of one second
+digitalWrite(22, LOW); // Set GPIO22 active low
+delay(1000); // delay of one second
+}
+```
+
+Now to run this example of LED blinking using ESP32, simply copy this code to Arduino IDE and compile the code.
+
+After compiling code, click on upload button to upload code to ESP32 devkit.
+
+Before uploading the code, make sure you have selected the board and COM pin to which your ESP32 board is connected.
+
+![installing ESP32 in Arduino IDE 10](https://microcontrollerslab.com/wp-content/uploads/2019/03/installing-ESP32-in-Arduino-IDE-10.jpg)
+
+If you do not see this board in toots>port option , you need to install the driver for this board, you can download and install drivers from this  [link](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers).
+
+Go to tools>Boards and select ESP32[![installing ESP32 in Arduino IDE 09](https://microcontrollerslab.com/wp-content/uploads/2019/03/installing-ESP32-in-Arduino-IDE-09.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/03/installing-ESP32-in-Arduino-IDE-09.jpg)
+
+Go to tools>Upload speed and choose 115200
+
+Also, select Flash Frequency of 80Mhz from tools options.
+
+Now click on the upload button.[![installing ESP32 in Arduino IDE 11](https://microcontrollerslab.com/wp-content/uploads/2019/03/installing-ESP32-in-Arduino-IDE-11.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/03/installing-ESP32-in-Arduino-IDE-11.jpg)
