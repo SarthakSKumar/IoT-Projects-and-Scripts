@@ -1,5 +1,6 @@
-## Intruder Detection system using Arduino
-This is a beginner friendly simple obstruction sensor.
+# Intruder Detection system using Arduino
+## Aim : 
+This is a beginner friendly simple obstruction sensor which is used to detect the presence of an obstruction and change the colour of the leds in response.
 
 > **MATERIAL REQUIREMENTS**
 > - 1 IR transmitter (generic)
@@ -20,3 +21,6 @@ This is a beginner friendly simple obstruction sensor.
 5. PhotoDiode Cathode => A0
 6. Green LED => D13
 7. Red LED => D12
+
+ **Circuit Diagram for the same**
+![image not loaded](./img/intruder-detector.jpg)
