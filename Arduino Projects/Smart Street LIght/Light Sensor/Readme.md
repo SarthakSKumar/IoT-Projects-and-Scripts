@@ -30,4 +30,4 @@ A 100 KΩ POT and the LDR form a voltage divider and the output of the voltage 
 A buzzer is connected to pin 11 of Arduino.
 
 ![alt text](img/lightSensor.jpg)
-![alt text](./img/lightSensor.1.jpg)
+![alt text](./img/Arduino-Light-Sensor.png)
