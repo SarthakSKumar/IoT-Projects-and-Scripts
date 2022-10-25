@@ -104,3 +104,8 @@ Note: For more info, go to [Basic LED Blink using ESP32](https://github.com/prat
 [boardsmanager]: <https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/06/installing.png?w=786&quality=100&strip=all&ssl=1>
 [installed]: <https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/07/ESP32-Board-add-on-in-Arduino-IDE-installed.png?w=786&quality=100&strip=all&ssl=1>
 [selectboard]: <https://circuitdigest.com/sites/default/files/inlineimages/u/Select-ESP32Dev-from-tools.png>
+
+
+## Projects
+
+- [Basic Blink LED Using ESP32](./Basic%20LED%20Blink%20using%20ESP32/)
