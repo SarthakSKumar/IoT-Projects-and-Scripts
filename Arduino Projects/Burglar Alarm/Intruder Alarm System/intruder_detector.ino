@@ -1,7 +1,8 @@
 int photoDiode=2;                      
 int GreenLed=13;                     
 int senRead=0;                  
-int SenseRate=905;                   
+int SenseRate=905; 
+
  void setup()    
  {  
   pinMode(photoDiode,OUTPUT);  
