@@ -35,8 +35,15 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
+.items a:hover {
+    color:white;
+}
+
+.items a:active {
+    color:white;
+}
+
 .items:hover {
-    color: white;
     background: blue;
     cursor: pointer;
 }
