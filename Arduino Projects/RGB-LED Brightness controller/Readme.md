@@ -24,4 +24,4 @@
 > **7.** × 1 Jumper wires (generic)
 
 - CIRCUIT DIAGRAM FOR THE SAME.
-![IMG NOT FOUND](./img/img.png)
+![IMG NOT FOUND](./img/img.jpg)
