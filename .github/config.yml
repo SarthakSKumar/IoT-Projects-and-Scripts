@@ -1,7 +1,12 @@
-# Configuration for welcome - https://github.com/behaviorbot/welcome
+blank_issues_enabled: true
 
-# Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
-# Comment to be posted to on first time issues
+contact_links:
+  - name: GitHub Community Support
+    url: https://github.com/orgs/community/discussions
+    about: Please ask and answer questions here.
+  - name: GitHub Security Bug Bounty
+    url: https://bounty.github.com/
+    about: Please report security vulnerabilities here.
 
 newIssueWelcomeComment: >
   Hello there! 👋🏻 Welcome to the IoT-Projects-and-Scripts! 🚀⚡️
