@@ -36,3 +36,71 @@ Specifications:
 ## 📃Documentation
 
 [Documentation provided by Espressif for all ESP32 Series](https://www.espressif.com/en/support/documents/technical-documents)
+
+## 📦Installation
+
+### Prerequisites
+Before starting the installation process, make sure you have the latest version of [Arduino IDE][1].
+
+[1]: <https://www.arduino.cc/en/software>
+
+### Installing ESP32 libraries to Arduino IDE
+Follow the steps below:
+1. In your Arduino IDE, go to `File>Preferences`.
+
+![filemenu][filemenu]
+
+2. Enter the following URL into the "Additional Board Manager URLs" fields:
+`https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+Then, click "OK".
+
+![preferences][preferences]
+
+Note: If you already have ESP8266 board URL, you can seperate the URLs with a comma.
+
+3. Open Boards Manager. Go to `Tools>Board>Boards Manager`.
+
+![toolsmenu][toolsmenu]
+
+4. Search for **ESP32** and press install button for **ESP32 by Espressif Systems**
+
+![boardsmanager][boardsmanager]
+
+5. Well done!. **ESP32** libraries should be installed in you Arduino IDE.
+
+![installed][installed]
+
+### Test the installation
+Follow the steps below:
+
+1. Connect your ESP32 board to your computer through micro-USB cable. Make sure the power LED turns on.
+
+2. Start Arduino IDE and navigate to `Tools>Boards>/<Select your ESP32 board>`
+
+![selectboard][selectboard]
+
+3. Go to `Tools>Port` and select appropriate Port to which you ESP32 board is connected.
+
+4. Now let's upload the Blink Program to check if we are able to program our ESP32 board. Open example sketch from `File>Examples>01.Basics` or run the below program.
+```
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
+Note: For more info, go to [Basic LED Blink using ESP32](https://github.com/prathimacode-hub/IoT-Spot/tree/main/ESP32/Basic%20LED%20Blink%20using%20ESP32)
+
+[filemenu]: <https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2016/12/arduino-ide-open-preferences.png?w=196&quality=100&strip=all&ssl=1>
+[preferences]: <https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2022/04/ESP32-URL-Arduino-IDE.png?w=828&quality=100&strip=all&ssl=1>
+[toolsmenu]: <https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/06/boardsManager.png?w=628&quality=100&strip=all&ssl=1>
+[boardsmanager]: <https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/06/installing.png?w=786&quality=100&strip=all&ssl=1>
+[installed]: <https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/07/ESP32-Board-add-on-in-Arduino-IDE-installed.png?w=786&quality=100&strip=all&ssl=1>
+[selectboard]: <https://circuitdigest.com/sites/default/files/inlineimages/u/Select-ESP32Dev-from-tools.png>
