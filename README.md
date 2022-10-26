@@ -1,13 +1,14 @@
 # 🎆 Arduino-Projects-and-Scripts 🎇
 <br>
 
-## 🌟 Welcome to SarthakSKumar/Arduino-Projects-and-Scripts. Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt about the contributing guide, please feel free to reach out. 
+## 🌟 Welcome to SarthakSKumar/Arduino-Projects-and-Scripts. 
+>- Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt about the contributing guide, please feel free to reach out. 
 <br>
 
 ![alt text](./img/Arduino-logo) 
 
 ###### Kickstart your journey into the world 🌍 of Arduino's. This repo contains scripts for various Arduino based projects. Discover 🚢, Learn ✏️, Engage 👨‍💻 and Contribute 
-# Contributing to this Repo
+# 📈 Contributing to this Repo
 	1.	Fork this repository.
 	2.	Clone the forked repository. git clone https://github.com/<your-github-username>/project_name.git
 	3.	Navigate to the project directory.
@@ -19,7 +20,7 @@
 	9.	Congratulations! Sit and relax, you've made your contribution.
 
 <p></p>
-<p align = "justify"><img src = "./img/fork" height = 40 width = 80/><hr></hr>
+<p align = "justify"><img src = "./img/fork" height = 40 width = 80/>
 </p>
 
 **📌 Copy paste the url(HTTPS) from the dropdown menu under clone into the terminal**
@@ -29,7 +30,7 @@
 git clone <HTTPS link>
 ``` 
 
-**Refer to this following article for the remaining configuration steps** [configuration](https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/blob/master/CONTRIBUTING.md)
+### Refer to this following article for the remaining configuration steps [CONTRIBUTING.md](https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/blob/master/CONTRIBUTING.md)
 <br>
 
 ## 📝List of contributors
