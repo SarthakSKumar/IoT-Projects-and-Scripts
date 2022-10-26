@@ -1,5 +1,6 @@
-# Arduino-Projects-and-Scripts
-## Welcome to SarthakSKumar/Arduino-Projects-and-Scripts. Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt about the contributing guide, please feel free to reach out.
+# IoT-Projects-and-Scripts
+
+## Welcome to SarthakSKumar/IoT-Projects-and-Scripts. Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt about the contributing guide, please feel free to reach out.
 
 ###### Kickstart your journey into the world 🌍 of Arduino's. This repo contains scripts for various Arduino based projects. Discover 🚢, Learn ✏️, Engage 👨‍💻 and Contribute 
 
