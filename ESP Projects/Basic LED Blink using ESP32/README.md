@@ -22,7 +22,7 @@ Note: GPIO6 to GPIO 11 are not exposed to pinout of ESP32 dev kit which we are u
 
 Now that I believed you have already installed ESP32 in Arduino IDE and You have also gone through the article on ESP32 pinout. Now let’s see how to blink an LED using ESP32 and Arduino IDE.
 
-[![ESP32 pin mapping](https://microcontrollerslab.com/wp-content/uploads/2019/03/ESP32-pin-mapping-1024x578.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/03/ESP32-pin-mapping.jpg)
+[![ESP32 pin mapping](./Images/ESP32-pin-mapping.png)
 
 ## LED Blinking Using ESP32
 
@@ -42,7 +42,7 @@ As you can in the above pinout diagram of ESP32, we have a total of 36 GPIO pins
 
 Now check the schematic and make it on your breadboard as shown below:
 
-[![LED blinking ESP32](https://microcontrollerslab.com/wp-content/uploads/2019/03/LED-blinking-ESP32.jpg)](https://microcontrollerslab.com/wp-content/uploads/2019/03/LED-blinking-ESP32.jpg)
+![LED blinking ESP32](./Images/LED-blinking-ESP32-circuit.png)
 
 Now make the circuit connection according to the above circuit diagram on the bread board.
 
