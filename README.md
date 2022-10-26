@@ -36,11 +36,7 @@ git clone <HTTPS link>
 <br>
 
 ## 📝List of contributors
-<p align = "justify">
- <a href = "https://github.com/SarthakSKumar"><img src = "./img/contributor1.png" height = 50 width = 350/></a><br>
- <a href = "https://github.com/Sohoxic"><img src = "./img/contributor2.png" height = 50 width = 350/></a><br>
- <a href = "https://github.com/its-abhishek"><img src = "./img/contributor3.png" height = 50 width = 350/></a><br>
- <a href = "https://github.com/ManasiGDeshmukh"><img src = "./img/contributor4.png" height = 50 width = 350/></a>
+<p align = "justify"><img src = "./img/contributor" height = 50 width = 350/><p/>
  
 ## 📩 Connect with me
 Don't hesitate to ping me🤝. If you are interested to discuss any further, I'm always open for a conversation!!✔ <br>
