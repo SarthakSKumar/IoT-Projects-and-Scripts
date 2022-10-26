@@ -2,6 +2,8 @@
 <br>
 
 ## 🌟 Welcome to SarthakSKumar/Arduino-Projects-and-Scripts. 
+![Github repo stars](https://img.shields.io/github/stars/SarthakSKumar/IoT-Projects-and-Scripts?color=bright)
+![github forks](https://img.shields.io/github/forks/SarthakSKumar/IoT-Projects-and-Scripts?color=brightgreen&style=social)
 >- Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt about the contributing guide, please feel free to reach out. 
 <br>
 
