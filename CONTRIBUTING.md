@@ -8,7 +8,7 @@ I'm happy to welcome all the contributions from anyone willing to add new script
 
 ## 💻Before Contributing
 
-Welcome to [SarthakSKumar/Arduino-Projects-and-Scripts](https://github.com/SarthakSKumar/Arduino-Projects-and-Scripts). Before sending your pull requests, make sure that you **read the whole
+Welcome to [SarthakSKumar/IoT-Projects-and-Scripts](https://github.com/SarthakSKumar/IoT-Projects-and-Scripts). Before sending your pull requests, make sure that you **read the whole
 guidelines**. If you have any doubt about the contributing guide, please feel free to reach out.
 
 
@@ -24,7 +24,7 @@ Following are the steps to guide you:
 * Step 1: Fork the repo Go to your Git terminal and clone it on your machine.
 * Step 2: Add an upstream link to the main branch in your cloned repo
     ```
-    git remote add upstream https://github.com/SarthakSKumar/Arduino-Projects-and-Scripts.git
+    git remote add upstream https://github.com/SarthakSKumar/IoT-Projects-and-Scripts.git
     ```
 * Step 3: Keep your cloned repo up to date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
     ```
