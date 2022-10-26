@@ -1,5 +1,6 @@
-# Arduino-Projects-and-Scripts ![alt text](./img/Arduino-logo.jpg)
-## Welcome to SarthakSKumar/Arduino-Projects-and-Scripts. Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt about the contributing guide, please feel free to reach out.
+# 🎆 Arduino-Projects-and-Scripts 🎇
+## 🌟 Welcome to SarthakSKumar/Arduino-Projects-and-Scripts. Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt about the contributing guide, please feel free to reach out. 
+![alt text](./img/Arduino-logo) 
 
 ###### Kickstart your journey into the world 🌍 of Arduino's. This repo contains scripts for various Arduino based projects. Discover 🚢, Learn ✏️, Engage 👨‍💻 and Contribute 
 
@@ -14,3 +15,18 @@
 	8.	Create a Pull Request/PR !
 	9.	Congratulations! Sit and relax, you've made your contribution.
 
+List of contributors
+
+## 📩 Connect with me
+Don't hesitate to ping me🤝. If you are interested to discuss any further, I'm always open for a conversation!!✔ <br>
+Shoot me an email <a href = "mailto:sskworld9742@gmail.com">here</a> for official discussions. <br>
+<p align = "justify">
+ <a href = "https://www.linkedin.com/in/sarthakskumar/"><img src = "https://github.com/SarthakSKumar/SarthakSKumar/blob/main/Assets/Social/Linkedin.png" height = 40 width = 40/></a>
+ <a href = "https://facebook.com/sarthaks.kumar/"><img src = "https://github.com/SarthakSKumar/SarthakSKumar/blob/main/Assets/Social/Facebook.png" height = 40 width = 40/></a>
+ <a href = "https://instagram.com/sarthakskumar/"><img src = "https://github.com/SarthakSKumar/SarthakSKumar/blob/main/Assets/Social/Instagram.png" height = 40 width = 40/></a>
+ <a href = "https://t.me/sarthakskumar"><img src = "https://github.com/SarthakSKumar/SarthakSKumar/blob/main/Assets/Social/Telegram.png" height = 40 width = 40/></a>
+ <a href = "https://discordapp.com/users/907567549410050078"><img src = "https://github.com/SarthakSKumar/SarthakSKumar/blob/main/Assets/Social/Discord.png" height = 40 width = 40/></a>
+ <a href = "https://twitter.com/SarthakSKumar2"><img src = "https://github.com/SarthakSKumar/SarthakSKumar/blob/main/Assets/Social/Twitter.png" height = 40 width = 40/></a>
+</p>
+
+<hr></hr>
