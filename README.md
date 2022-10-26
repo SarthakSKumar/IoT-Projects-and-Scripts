@@ -16,9 +16,7 @@
 	4.	Creating a new branch (IMP) This is one of the very important step that you should follow to contribute in Open Source. A branch helps to manage the workflow, isolate your code and does not create a mess. 
 
 
-<p></p>
-<p align = "justify"><img src = "./img/fork" height = 40 width = 80/>
-</p>
+## Fork
 
 **📌 Copy paste the url(HTTPS) from the dropdown menu under clone into the terminal**
 <p><img src = "./img/gitclone.png" height = 190 width = 390/ padding=70> <img src = "./img/gitCloneCommand" height = 120 width = 350/><p/>
