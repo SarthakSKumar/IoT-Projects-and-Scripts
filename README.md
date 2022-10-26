@@ -36,7 +36,7 @@ git clone <HTTPS link>
 <br>
 
 ## 📝List of contributors
-<p align = "justify"><img src = "./img/contributor" height = 50 width = 350/><p/>
+<p align = "justify"><img src = "./img/contributor" height = 100 width = 350/><p/>
  
 ## 📩 Connect with me
 Don't hesitate to ping me🤝. If you are interested to discuss any further, I'm always open for a conversation!!✔ <br>
