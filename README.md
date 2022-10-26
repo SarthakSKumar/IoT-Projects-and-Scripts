@@ -26,7 +26,7 @@
 </p>
 
 **📌 Copy paste the url(HTTPS) from the dropdown menu under clone into the terminal**
-<p><img src = "./img/gitclone.png" height = 190 width = 340/ padding=70> <img src = "./img/gitCloneCommand" height = 120 width = 350/><p/>
+<p><img src = "./img/gitclone.png" height = 190 width = 390/ padding=70> <img src = "./img/gitCloneCommand" height = 120 width = 350/><p/>
 
 ```
 git clone <HTTPS link>
