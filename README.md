@@ -2,18 +2,19 @@
 # 🎆 IoT-Projects-and-Scripts 🎇
 <br>
 
-## 🌟 Welcome to SarthakSKumar/IoT-Projects-and-Scripts. 
+## 🌟 Welcome to SarthakSKumar/IoT-Projects-and-Scripts.
 ![Github repo stars](https://img.shields.io/github/stars/SarthakSKumar/IoT-Projects-and-Scripts?color=bright)
 ![github forks](https://img.shields.io/github/forks/SarthakSKumar/IoT-Projects-and-Scripts?color=brightgreen&style=social)
->- Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt about the contributing guide, please feel free to reach out. 
+>- Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubt about the contributing guide, please feel free to reach out.
 <br>
 
-###### Kickstart your journey into the world 🌍 of IOT. This repo contains scripts for various Arduino based projects. Discover 🚢, Learn ✏️, Engage 👨‍💻 and Contribute 
+###### Kickstart your journey into the world 🌍 of IOT. This repo contains scripts for various Arduino based projects. Discover 🚢, Learn ✏️, Engage 👨‍💻 and Contribute
+
 # 📈 Contributing to this Repo
 	1.	Fork this repository.
 	2.	Clone the forked repository. git clone https://github.com/<your-github-username>/project_name.git
 	3.	Navigate to the project directory.
-	4.	Creating a new branch (IMP) This is one of the very important step that you should follow to contribute in Open Source. A branch helps to manage the workflow, isolate your code and does not create a mess. 
+	4.	Creating a new branch (IMP) This is one of the very important step that you should follow to contribute in Open Source. A branch helps to manage the workflow, isolate your code and does not create a mess.
 
 
 <p></p>
@@ -25,11 +26,11 @@
 
 ```
 git clone <HTTPS link>
-``` 
+```
 
 ### Refer to this following article for the remaining configuration steps [CONTRIBUTING.md](https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/blob/master/CONTRIBUTING.md)
 <br>
- 
+
 ## 📩 Connect with me
 Don't hesitate to ping me🤝. If you are interested to discuss any further, I'm always open for a conversation!!✔ <br>
 Shoot me an email <a href = "mailto:sskworld9742@gmail.com">here</a> for official discussions. <br>
@@ -44,7 +45,7 @@ Shoot me an email <a href = "mailto:sskworld9742@gmail.com">here</a> for officia
 
 ## 📖Resources
 
-1. Markdown: Markdown is a lightweight markup language like HTML, with plain text formatting syntax. 
+1. Markdown: Markdown is a lightweight markup language like HTML, with plain text formatting syntax.
   * [Markdown Cheat-Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 2. Git: Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
@@ -71,3 +72,4 @@ You can refer to the following articles on the basics of Git and Github and also
 
 #### 💫 Wonderful People🧑👧 Who Have Contributed To This Repo ❤️!!!
 
+ © SarthakSKumar
