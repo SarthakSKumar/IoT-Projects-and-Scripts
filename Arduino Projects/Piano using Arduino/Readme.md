@@ -1,6 +1,6 @@
 # A-PIANO (Arduino Piano)
 
-Aim : 
+Aim : This is a mini which involves buzzers for producing different sounds.
 
 ## Materials required:
 - Arduino UNO
@@ -12,3 +12,4 @@ Aim :
 
 # Circuit Diagram
 ![image not found](./img/Piano)
+
