@@ -11,4 +11,4 @@ Aim :
 - UTSOURCE Electronic Parts
 
 # Circuit Diagram
-![image not found](./img/piano)
+![image not found](./img/Piano)
