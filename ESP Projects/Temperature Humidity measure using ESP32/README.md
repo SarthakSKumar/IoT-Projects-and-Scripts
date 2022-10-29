@@ -49,3 +49,29 @@ Here’s a list of parts you need to build the circuit:
 -   [10k Ohm resistor](https://makeradvisor.com/tools/resistors-kits/)
 -   [Breadboard](https://makeradvisor.com/tools/mb-102-solderless-breadboard-830-points/)
 -   [Jumper wires](https://makeradvisor.com/tools/jumper-wires-kit-120-pieces/)
+
+## Schematic Diagram
+
+Wire the DHT22 or DHT11 sensor to the ESP32 development board as shown in the following schematic diagram.
+
+![ESP32 with DHT11/DHT22 Temperature and Humidity Sensor using Arduino IDE](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/04/dht_esp32_bb.png?resize=714%2C892&quality=100&strip=all&ssl=1)
+
+In this example, we’re connecting the DHT data pin to  GPIO 4. However, you can use any other suitable digital pin.
+
+Learn how to use the ESP32 GPIOs with our guide:  [ESP32 Pinout Reference: Which GPIO pins should you use?](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
+
+## Installing Libraries
+
+To read from the DHT sensor, we’ll use the  [DHT library from Adafruit](https://github.com/adafruit/DHT-sensor-library). To use this library you also need to install the  [Adafruit Unified Sensor library](https://github.com/adafruit/Adafruit_Sensor). Follow the next steps to install those libraries.
+
+Open your Arduino IDE and go to  **Sketch** >  **Include Library**  >  **Manage Libraries**. The Library Manager should open.
+
+Search for “**DHT**” on the Search box and install the DHT library from Adafruit.
+
+![Installing Adafruit DHT library](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/04/adafruit_dht_library.png?resize=750%2C422&quality=100&strip=all&ssl=1)
+
+After installing the DHT library from Adafruit, type “**Adafruit Unified Sensor**” in the search box. Scroll all the way down to find the library and install it.
+
+![Installing Adafruit Unified Sensor driver library](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/04/adafruit_unified_sensor_library.png?resize=750%2C422&quality=100&strip=all&ssl=1)
+
+After installing the libraries, restart your Arduino IDE.
