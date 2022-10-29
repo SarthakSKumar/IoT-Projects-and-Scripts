@@ -159,4 +159,152 @@ void loop() {
 
 There are many comments throughout the code with useful information. So, you might want to take a look at the comments. Continue reading to learn how the code works.
 
+## How the Code Works
 
+First, you need to import the  DHT  library:
+
+```c
+#include "DHT.h"
+```
+
+Then, define the digital pin that the DHT sensor data pin is connected to. In this case, it’s connected to  GPIO 4.
+
+```c
+#define DHTPIN 4     // Digital pin connected to the DHT sensor
+```
+
+Then, you need to select the DHT sensor type you’re using. The library supports DHT11, DHT22, and DHT21. Uncomment the sensor type you’re using and comment all the others. In this case, we’re using the DHT22 sensor.
+
+```c
+//#define DHTTYPE DHT11   // DHT 11
+#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
+//#define DHTTYPE DHT21   // DHT 21 (AM2301)
+```
+
+Create a  DHT  object called  dht  on the pin and with the sensor type you’ve specified previously.
+
+```c
+DHT dht(DHTPIN, DHTTYPE);
+```
+
+In the  setup(), initialize the Serial debugging at a baud rate of 9600, and print a message in the Serial Monitor.
+
+```c
+Serial.begin(9600);
+Serial.println(F("DHTxx test!"));
+```
+
+Finally, initialize the DHT sensor.
+
+```c
+dht.begin();
+```
+
+The  loop()  starts with a 2000 ms (2 seconds) delay, because the DHT22 maximum sampling period is 2 seconds. So, we can only get readings every two seconds.
+
+```c
+delay(2000);
+```
+
+The temperature and humidity are returned in float format. We create float variables  h,  t, and  f  to save the humidity, temperature in Celsius and temperature in Fahrenheit, respectively.
+
+Getting the humidity and temperature is as easy as using the  readHumidity()  and  readTemperature()  methods on the  dht  object, as shown below:
+
+```c
+float h = dht.readHumidity();
+// Read temperature as Celsius (the default)
+float t = dht.readTemperature();
+```
+
+If you want to get the temperature in Fahrenheit degrees, you need to pass the  true  parameter as argument to the  readTemperature()  method.
+
+```c
+float f = dht.readTemperature(true);
+```
+
+There’s also an if statement that checks if the sensor returned valid temperature and humidity readings.
+
+```c
+if (isnan(h) || isnan(t) || isnan(f)) {
+   Serial.println(F("Failed to read from DHT sensor!"));
+   return;
+```
+
+After getting the humidity and temperature, the library has a method that computes the heat index. You can get the heat index both in Celsius and Fahrenheit as shown below:
+
+```c
+// Compute heat index in Fahrenheit (the default)
+float hif = dht.computeHeatIndex(f, h);
+// Compute heat index in Celsius (isFahreheit = false)
+float hic = dht.computeHeatIndex(t, h, false);
+```
+
+Finally, print all the readings on the Serial Monitor with the following commands:
+
+```c
+Serial.print(F("Humidity: "));
+Serial.print(h);
+Serial.print(F("%  Temperature: "));
+Serial.print(t);
+Serial.print(F("°C "));
+Serial.print(f);
+Serial.print(F("°F  Heat index: "));
+Serial.print(hic);
+Serial.print(F("°C "));
+Serial.print(hif);
+Serial.println(F("°F"));
+```
+
+## Demonstration
+
+Upload the code to your ESP32 board. Make sure you have the right board and COM port selected in your Arduino IDE settings.
+
+After uploading the code, open the Serial Monitor at a baud rate of 9600. You should get the latest temperature and humidity readings in the Serial Monitor every two seconds.
+
+![ESP32 DHT11 DHT22 AM2302 AM2301 read temperature humidity sensor](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/04/temperature_humidity_readings_dht_esp32.png?resize=726%2C376&quality=100&strip=all&ssl=1)
+
+# ESP32 - Temperature and Humidity measure using DHT22(Web Server)
+
+## [Code Link](../../DHT22_Web_server/DHT22_Web_server.ino)
+## [Video Link](https://youtu.be/tDdL5urWvH4)
+
+In this project, you’ll learn how to build an asynchronous ESP32 web server with the DHT11 or DHT22 that displays temperature and humidity using Arduino IDE.
+
+![ESP32 DHT11/DHT22 Web Server - Temperature and Humidity using Arduino IDE](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/03/ESP32-DHT11-DHT22-Web-Server-Arduino-IDE-featured-image-1.jpg?resize=828%2C466&quality=100&strip=all&ssl=1)
+
+The web server we’ll build updates the readings automatically without the need to refresh the web page.
+
+With this project you’ll learn:
+
+-   How to read temperature and humidity from DHT sensors;
+-   Build an asynchronous web server using the  [ESPAsyncWebServer library](https://github.com/me-no-dev/ESPAsyncWebServer);
+-   Update the sensor readings automatically without the need to refresh the web page.
+
+For a more in-depth explanation on how to use the DHT22 and DHT11 temperature and humidity sensors with the ESP32, read our complete guide:  [ESP32 with DHT11/DHT22 Temperature and Humidity Sensor using Arduino IDE](https://randomnerdtutorials.com/esp32-with-dht11-dht22-temperature-and-humidity-sensor-using-arduino-ide/)
+
+## Watch the Video Tutorial
+
+You can watch the video tutorial or keep reading this page for the written instructions.
+
+## Asynchronous Web Server
+
+To build the web server we’ll use the  [ESPAsyncWebServer library](https://github.com/me-no-dev/ESPAsyncWebServer)  that provides an easy way to build an asynchronous web server. Building an asynchronous web server has several advantages as mentioned in the library GitHub page, such as:
+
+-   “Handle more than one connection at the same time”;
+-   “When you send the response, you are immediately ready to handle other connections while the server is taking care of sending the response in the background”;
+-   “Simple template processing engine to handle templates”;
+-   And much more.
+
+Take a look at the  [library documentation on its GitHub page](https://github.com/me-no-dev/ESPAsyncWebServer).
+
+## Parts Required
+
+![ESP32 DHT11 DHT22 Temperature and Humidity Arduino IDE Circuit Schematic](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/04/dht-web-server-esp32-circuit.jpg?resize=750%2C421&quality=100&strip=all&ssl=1)
+
+To complete this tutorial you need the following parts:
+
+-   [ESP32 development board](https://makeradvisor.com/tools/esp32-dev-board-wi-fi-bluetooth/) (read [ESP32 development boards comparison](https://makeradvisor.com/esp32-development-boards-review-comparison/))
+-   [DHT22](https://makeradvisor.com/tools/dht22-temperature-humidity-sensor/) or [DHT11](https://makeradvisor.com/tools/dht11-temperature-humidity-sensor/) Temperature and Humidity Sensor
+-   [4.7k Ohm Resistor](https://makeradvisor.com/tools/resistors-kits/)
+-   [Breadboard](https://makeradvisor.com/tools/mb-102-solderless-breadboard-830-points/)
+-   [Jumper wires](https://makeradvisor.com/tools/jumper-wires-kit-120-pieces/)
