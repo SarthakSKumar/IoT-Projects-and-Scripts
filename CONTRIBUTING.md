@@ -129,7 +129,7 @@ Your projects should contain this flow to maintain similarity across all other p
 
 Create an issue with your idea, approach, your expected outcome and why it's useful to be necessary to be included in this project. For PR, include issue number along with PR template, it's details and compiled output screenshot
 
-All the web related changes should go into [IoT-Spot Website]()
+All the web related changes should go into [IoT-Spot Website](https://iot-projects-and-scripts.netlify.app)
 
 
 ## 📖Resources
