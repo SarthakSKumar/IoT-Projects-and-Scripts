@@ -57,3 +57,23 @@ body::-webkit-scrollbar {
 footer {
     background-color: blueviolet;
 }
+
+.contacts {
+    background-color: #6B728E;
+    align-items: center;
+    border-width: 0;
+}
+
+.my_contact {
+    background-color: #6B728E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 37%;
+    width: 25vw;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
