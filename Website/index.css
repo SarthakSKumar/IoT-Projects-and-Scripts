@@ -9,6 +9,9 @@
     width: 100%;
     text-align: center;
 }
+input{
+    display: none;
+}
 h1{
     font-weight: normal;
     font-size: 35px;
@@ -135,3 +138,19 @@ label:hover{
     opacity: 1;
 }
 
+#all:checked ~ .container .project-gallery .pic{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition .0s;
+}
+#arduino:checked ~ .container .project-gallery .Arduino{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+#esp:checked ~ .container .project-gallery .ESP{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
