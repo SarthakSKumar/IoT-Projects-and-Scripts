@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 .container{
@@ -73,6 +76,7 @@ label{
     height: 100%;
     margin: 0 50px;
     line-height: 60px;
+    cursor: pointer;
     font-size: 18px;
     color: gray;
     transition: color .5s;
@@ -142,7 +146,7 @@ label:hover{
     opacity: 1;
     transform: scale(1);
     position: relative;
-    transition .0s;
+    transition: .0s;
 }
 #arduino:checked ~ .container .project-gallery .Arduino{
     opacity: 1;
