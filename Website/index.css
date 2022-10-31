@@ -21,8 +21,8 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 37%;
-    width: 25vw;
+    left: 25%;
+    width: 50vw;
     height: 50px;
     border-radius: 30px;
     margin-bottom: 20px;
