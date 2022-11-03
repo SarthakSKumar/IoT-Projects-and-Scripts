@@ -63,11 +63,10 @@ You can refer to the following articles on the basics of Git and Github and also
 <hr></hr>
 
 ## 📝List of contributors
+💫 Thanks to all Wonderful People🧑👧 Who Have Contributed To This Repo ❤️<br><br>
 <a href="https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=SarthakSKumar/IoT-Projects-and-Scripts" />
 </a>
 <hr>
-
-#### 💫 Wonderful People🧑👧 Who Have Contributed To This Repo ❤️!!!
 
  © SarthakSKumar
