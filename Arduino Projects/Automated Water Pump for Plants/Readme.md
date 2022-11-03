@@ -4,7 +4,7 @@
 A water pumping system for plants based on moisture content of the soil.
 
 ## Theory :  
-In this system, soil moisture sensor senses the moisture level of the soil. If soil will get dry then sensor senses low moisture level and automatically switches on the water pump to supply water to the plant. As plant get sufficient water and soil get wet then sensor senses enough moisture in soil. After which the water pump will automatically get stopped.
+In this system, soil moisture sensor senses the moisture level of the soil. If soil will get dry then sensor senses low moisture level and automatically switches on the water pump to supply water to the plant. As plant get sufficient water and soil get wet then sensor senses enough moisture in soil. After which the water pump will automatically get stopped. Also I've used a 5V DC motor which is not directly connected to the arduino as it might damage it, so I've made use of a npn transistor to act as a switch to power the motor.
 
 ## Materials Required :
 - Arduino UNO
