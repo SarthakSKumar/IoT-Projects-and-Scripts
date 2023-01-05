@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
+    text-decoration: none;
 }
 
 .container{
@@ -63,9 +64,17 @@ h1::before{
     box-shadow: 3px 3px 5px lightgray;
 }
 
-h3{
+label:hover{
     height: 100%;
     background-color: rgb(227, 227, 227);
+    line-height: 60px;
+    padding: 0 50px;
+    color: black;
+}
+
+label:active{
+    height: 100%;
+    background-color: gray;
     line-height: 60px;
     padding: 0 50px;
     color: black;
@@ -80,10 +89,6 @@ label{
     font-size: 18px;
     color: gray;
     transition: color .5s;
-}
-label:hover{
-    color: black;
-
 }
 .project-gallery{
     width: 90%;
