@@ -58,3 +58,16 @@ esp.forEach(function (e) {
         });
     };
 });
+
+//////////////////////////////////
+fetch('cards.json')
+    .then((response) => response.json())
+    .then((data) => {
+        console.log(data);
+        // Get the template from the script tag
+        const template = Handlebars.compile(document.querySelector('#card-template').innerHTML);
+        // Pass the data to the template
+        const html = template({ cards: data });
+        // Insert the HTML into the page
+        document.querySelector('.card-container').innerHTML = html;
+    });

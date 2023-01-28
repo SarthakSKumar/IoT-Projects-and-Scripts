@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Card 1",
+        "image": "card1.jpg",
+        "link": "https://www.example1.com"
+    },
+    {
+        "name": "Card 2",
+        "image": "card2.jpg",
+        "link": "https://www.example2.com"
+    },
+    {
+        "name": "Card 3",
+        "image": "card3.jpg",
+        "link": "https://www.example3.com"
+    }
+]
