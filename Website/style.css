@@ -10,6 +10,7 @@ body {
     padding: 0;
     height: 100%;
     cursor: pointer;
+    background-color: #2c343f;
 }
 #canvas {
     z-index: -1;
