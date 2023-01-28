@@ -28,8 +28,8 @@ p {
 }
 
 /* for the individual cards */
-.cards {
-    @apply rounded-md  m-[16px] w-[22rem] h-[16rem] flex flex-col justify-center items-center mb-0 min-w-0 max-w-full bg-cover bg-center transition-opacity duration-300 ease-in-out hover:opacity-50;
+.container {
+    @apply w-[22rem] h-[16rem] flex flex-col justify-center items-center max-w-full bg-cover bg-center transition-opacity duration-300 ease-in-out hover:opacity-50;
 }
 
 /* for the nav buttons to filter cards */

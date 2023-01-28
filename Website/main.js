@@ -8,6 +8,7 @@ let esp = document.querySelectorAll('.esp');
 
 //For showing links on hover to each cards
 containers.forEach(function (container) {
+    console.log(container);
     container.addEventListener('mouseover', function (e) {
         let link = e.currentTarget.querySelector('.links');
 

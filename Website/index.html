@@ -11,7 +11,6 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
-        <title>IoT Projects and Scripts</title>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
         <link
@@ -19,6 +18,7 @@
             type="text/css"
             href="style.css"
         />
+        <title>IoT Projects and Scripts</title>
     </head>
     <body>
         <!-- <canvas id="canvas"></canvas> -->
@@ -99,18 +99,16 @@
                 type="text/x-handlebars-template"
             >
                 {{#each cards}}
-                    <div class='card'>
-                        <div
-                            class='container cards allProject espCard bg-[url(https://images.unsplash.com/photo-1553406830-ef2513450d76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80)]'
-                        >
+                    <div class='card allProject {{type}} m-[4px]'>
+                        <div class='container' style='background-image: url({{image}});'>
                             <a
                                 href='{{link}}'
                                 target='_blank'
-                                class='links text-grey-500 text-4xl z-10 hidden'
+                                class='links text-grey-500 text-4xl z-50'
                             >
                                 View Code</a>
                         </div>
-                        <p class='text-2xl flex pt-0 mt-0 mb-2'>{{name}}</p>
+                        <p class='text-2xl flex pt-0 mt-0 mb-2 justify-center'>{{name}}</p>
                     </div>
                 {{/each}}
             </script>
