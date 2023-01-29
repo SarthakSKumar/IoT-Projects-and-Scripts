@@ -51,9 +51,9 @@ class Wave extends Element {
     }
 
     draw = ({ ctx }) => {
-        ctx.lineCap = "round";
+        ctx.lineCap = 'round';
         ctx.lineWidth = this.toValue(2);
-        ctx.strokeStyle = "#ccc";
+        ctx.strokeStyle = '#ccc';
 
         ctx.beginPath();
         ctx.moveTo(this.vertices[0].x, this.vertices[0].y);
@@ -148,8 +148,8 @@ class Gate extends Element {
             this.px,
             this.py + this.diameter
         );
-        gradient.addColorStop(0, "#2a5298");
-        gradient.addColorStop(1, "#4298b7");
+        gradient.addColorStop(0, '#2a5298');
+        gradient.addColorStop(1, '#4298b7');
 
         const wobble = this.toValue(Math.sin(canvas.tick / 20) * 10);
         const offset = this.toValue(5);
@@ -250,9 +250,9 @@ class Ring extends Element {
 
         ctx.closePath();
 
-        ctx.globalCompositeOperation = "lighter";
+        ctx.globalCompositeOperation = 'lighter';
         ctx.stroke();
-        ctx.globalCompositeOperation = "source-over";
+        ctx.globalCompositeOperation = 'source-over';
     };
 
     update = ({ tick }) => {
@@ -330,8 +330,8 @@ class Background extends Element {
         // ctx.fillRect(0, 0, w, h);
 
         var gradient2 = ctx.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, w);
-        gradient2.addColorStop(1, "#20008c");
-        gradient2.addColorStop(0, "#86efcc");
+        gradient2.addColorStop(1, '#20008c');
+        gradient2.addColorStop(0, '#86efcc');
         ctx.fillStyle = gradient2;
         ctx.fillRect(0, 0, w, h);
         // ctx.globalCompositeOperation = 'source-over';
@@ -345,9 +345,9 @@ class Background extends Element {
 class Canvas {
     constructor(elements = []) {
         // setup a canvas
-        this.canvas = document.getElementById("canvas");
+        this.canvas = document.getElementById('canvas');
         this.dpr = 1;
-        this.ctx = this.canvas.getContext("2d");
+        this.ctx = this.canvas.getContext('2d');
         this.ctx.scale(this.dpr, this.dpr);
         // stores
         this.elements = elements;
@@ -359,8 +359,8 @@ class Canvas {
     }
 
     setupListeners() {
-        window.addEventListener("resize", this.setCanvasSize);
-        window.addEventListener("mousemove", this.setPointer);
+        window.addEventListener('resize', this.setCanvasSize);
+        window.addEventListener('mousemove', this.setPointer);
     }
 
     setPointer = ({ clientX, clientY }) => {
@@ -372,8 +372,8 @@ class Canvas {
     setCanvasSize = () => {
         this.canvas.width = window.innerWidth * this.dpr;
         this.canvas.height = window.innerHeight * this.dpr;
-        this.canvas.style.width = window.innerWidth + "px";
-        this.canvas.style.height = window.innerHeight + "px";
+        this.canvas.style.width = window.innerWidth + 'px';
+        this.canvas.style.height = window.innerHeight + 'px';
     };
 
     addElement(newElement) {
@@ -407,7 +407,7 @@ const canvas = new Canvas([
     new Portal(5, {
         radius: 0,
         pointAmount: 3,
-        speed: 2,
+        speed: 1,
         decay: 200,
         acceleration: 1.02,
         wobble: 1,

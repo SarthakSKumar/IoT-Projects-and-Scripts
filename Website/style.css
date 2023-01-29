@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,7 +31,7 @@ p {
 
 /* for the individual cards */
 .container {
-    @apply w-[22rem] h-[16rem] flex flex-col justify-center items-center max-w-full bg-cover bg-center transition-opacity duration-300 ease-in-out hover:opacity-50;
+    @apply w-screen h-[22rem] flex justify-center items-center max-w-full max-h-full bg-cover bg-center transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-[15px];
 }
 
 /* for the nav buttons to filter cards */
@@ -49,4 +50,19 @@ p {
 
 .hide {
     display: none;
+}
+
+.card {
+    @apply h-[24em] px-5 mt-8 py-8 justify-center items-center text-center;
+}
+
+.title {
+    @apply flex justify-center text-[4.5em] py-6 mb-5 font-['Righteous'] text-[gradien];
+}
+
+.text-gradient-to-r {
+    background-image: linear-gradient(to right, #38416e, #347765);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
