@@ -11,7 +11,7 @@ body {
     padding: 0;
     height: 100%;
     cursor: pointer;
-    background-color: #2c343f;
+    background-color: #bac6d7;
 }
 #canvas {
     z-index: -1;
@@ -31,7 +31,7 @@ p {
 
 /* for the individual cards */
 .container {
-    @apply w-screen h-[22rem] flex justify-center items-center max-w-full max-h-full bg-cover bg-center transition-opacity duration-300 ease-in-out hover:opacity-50 rounded-[15px];
+    @apply w-screen md:h-[22rem] sm:h-[10rem] h-[8rem] flex justify-center items-center max-w-full max-h-full bg-cover bg-center transition-opacity duration-300 ease-in-out rounded-[15px];
 }
 
 /* for the nav buttons to filter cards */
@@ -57,7 +57,7 @@ p {
 }
 
 .title {
-    @apply flex justify-center text-[4.5em] py-6 mb-5 font-['Righteous'] text-[gradien];
+    @apply flex justify-center text-[5em] py-4 mb-4 font-['Righteous'] text-[gradien];
 }
 
 .text-gradient-to-r {
@@ -66,3 +66,5 @@ p {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+/* for the flip effect */

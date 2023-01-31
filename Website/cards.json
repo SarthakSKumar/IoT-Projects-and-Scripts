@@ -288,13 +288,13 @@
         "type": "arduinoCard"
     },
     {
-        "name": "Basic LED Blink using ESP32",
+        "name": "Basic LED Blink",
         "image": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/blob/master/ESP%20Projects/Basic%20LED%20Blink%20using%20ESP32/Images/LED-blinking-ESP32-circuit.png?raw=true",
         "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/ESP%20Projects/Basic%20LED%20Blink%20using%20ESP32",
         "type": "espCard"
     },
     {
-        "name": "Temperature Humidity measure using ESP32",
+        "name": "Temperature Humidity",
         "image": "https://camo.githubusercontent.com/2eefd16d31de5800d250dca079ce3093264704c2d28cc978e990443fc8640995/68747470733a2f2f69302e77702e636f6d2f72616e646f6d6e6572647475746f7269616c732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f30342f45535033322d776974682d444854313144485432322d54656d70657261747572652d616e642d48756d69646974792d53656e736f722d7573696e672d41726475696e6f2d4944452e6a70673f726573697a653d383238253243343636267175616c6974793d3130302673747269703d616c6c2673736c3d31",
         "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/ESP%20Projects/Temperature%20Humidity%20measure%20using%20ESP32",
         "type": "espCard"

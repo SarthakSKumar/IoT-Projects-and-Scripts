@@ -1,74 +1,57 @@
-//Initializing all the elements to a variable
-
-let containers = document.querySelectorAll('.container');
-
-let allProject = document.querySelectorAll('.allProject');
-let arduino = document.querySelectorAll('.arduino');
-let esp = document.querySelectorAll('.esp');
-
-//For showing links on hover to each cards
-containers.forEach(function (container) {
-    console.log(container);
-    container.addEventListener('mouseover', function (e) {
-        let link = e.currentTarget.querySelector('.links');
-
-        link.classList.remove('hidden');
-    });
-    container.addEventListener('mouseout', function (e) {
-        let link = e.currentTarget.querySelector('.links');
-
-        link.classList.add('hidden');
-    });
-});
-
-// for filtering cards
-allProject.forEach(function (e) {
-    e.onclick = () => {
-        console.log('Clcickck');
-        containers.forEach(function (container) {
-            container.parentElement.classList.remove('hide');
-        });
-    };
-});
-arduino.forEach(function (e) {
-    e.onclick = () => {
-        console.log('Clcickck');
-        containers.forEach(function (container) {
-            console.log('sdgasf');
-            if (container.classList.contains('espCard')) {
-                container.parentElement.classList.add('hide');
-            }
-            if (container.classList.contains('arduinoCard')) {
-                container.parentElement.classList.remove('hide');
-            }
-        });
-    };
-});
-
-esp.forEach(function (e) {
-    e.onclick = () => {
-        console.log('Clcickck');
-        containers.forEach(function (container) {
-            console.log('sdgasf');
-            if (container.classList.contains('arduinoCard')) {
-                container.parentElement.classList.add('hide');
-            }
-            if (container.classList.contains('espCard')) {
-                container.parentElement.classList.remove('hide');
-            }
-        });
-    };
-});
-
+const allproject = document.querySelectorAll(".allProjectbtn");
+const arduino = document.querySelectorAll(".arduinobtn");
+const esp = document.querySelectorAll(".espbtn");
 //////////////////////////////////
-fetch('cards.json')
+let data, cards;
+fetch("cards.json")
     .then((response) => response.json())
+    .then((res) => {
+        data = res;
+        return data;
+    })
     .then((data) => {
-        console.log(data);
-        // Get the template from the script tag
-        const template = Handlebars.compile(document.querySelector('#card-template').innerHTML);
-        // Pass the data to the template
+        //Compile the handle bars template
+        const template = Handlebars.compile(document.querySelector("#card-template").innerHTML);
+        //Render the template with the data from the JSON file
         const html = template({ cards: data });
+
         // Insert the HTML into the page
-        document.querySelector('.card-container').innerHTML = html;
+        document.querySelector(".card-container").innerHTML = html;
+        cards = document.querySelectorAll(".card");
+        cardFilter();
     });
+
+const cardFilter = function () {
+    allproject.forEach(function (e) {
+        e.onclick = () => {
+            console.log("Clcickck");
+            cards.forEach(function (card) {
+                card.classList.remove("hide");
+            });
+        };
+    });
+    arduino.forEach(function (e) {
+        e.onclick = () => {
+            cards.forEach(function (card) {
+                if (card.classList.contains("espCard")) {
+                    card.classList.add("hide");
+                }
+                if (card.classList.contains("arduinoCard")) {
+                    card.classList.remove("hide");
+                }
+            });
+        };
+    });
+    esp.forEach(function (e) {
+        e.onclick = () => {
+            cards.forEach(function (card) {
+                if (card.classList.contains("arduinoCard")) {
+                    card.classList.add("hide");
+                }
+                if (card.classList.contains("espCard")) {
+                    card.classList.remove("hide");
+                }
+            });
+        };
+    });
+};
