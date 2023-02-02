@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -31,7 +31,32 @@ p {
 
 /* for the individual cards */
 .container {
-    @apply w-screen md:h-[22rem] sm:h-[10rem] h-[8rem] flex justify-center items-center max-w-full max-h-full bg-cover bg-center transition-opacity duration-300 ease-in-out rounded-[15px];
+    @apply w-screen md:h-[22rem] sm:h-[10rem] h-[8rem] flex justify-center items-center max-w-full max-h-full transition-opacity duration-300 ease-in-out rounded-[15px];
+    transform-style: preserve-3d;
+    transition: all 0.5 ease;
+}
+
+.container:hover {
+    transform: rotateY(180deg);
+}
+
+.front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* for the nav buttons to filter cards */
