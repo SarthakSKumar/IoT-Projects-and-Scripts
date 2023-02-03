@@ -1,6 +1,9 @@
 const allproject = document.querySelectorAll(".allProjectbtn");
 const arduino = document.querySelectorAll(".arduinobtn");
 const esp = document.querySelectorAll(".espbtn");
+const contributorBtn = document.querySelectorAll(".contributorsbtn");
+const contributorCard = document.querySelector(".contributors");
+const cardContainer = document.querySelector(".card-container");
 //////////////////////////////////
 let data, cards;
 fetch("cards.json")
@@ -19,6 +22,7 @@ fetch("cards.json")
         document.querySelector(".card-container").innerHTML = html;
         cards = document.querySelectorAll(".card");
         cardFilter();
+        lazyload();
     });
 
 const cardFilter = function () {
@@ -54,6 +58,17 @@ const cardFilter = function () {
             });
         };
     });
+    //////////////////////////To show the contributor window
+    contributorBtn.forEach(function (e) {
+        e.onclick = () => {
+            contributorCard.classList.remove("hide");
+            cardContainer.style.opacity = 0.3;
+        };
+    });
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && !contributorCard.classList.contains("hide")) {
+            contributorCard.classList.add("hide");
+            cardContainer.style.opacity = 10;
+        }
+    });
 };
-
-//////////////////////////
