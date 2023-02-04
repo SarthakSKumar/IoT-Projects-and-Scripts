@@ -1,0 +1,302 @@
+[
+    {
+        "name": "Alarm Clock",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Alarm%20clock%20using%20Arduino/Images/SS-1.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Alarm%20clock%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Alternate LED Blinking",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Alternate%20LED%20Blinking/Images/alternate_led_blinking.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Alternate%20LED%20Blinking",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Automated Hand Sanitizer",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Automated%20Hand%20Sanitizer%20Dispenser/Images/SS-1.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Automated%20Hand%20Sanitizer%20Dispenser",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Automated Water Pump for Plants",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Automated%20Water%20Pump%20for%20Plants/img/automatedWaterPump.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Automated%20Water%20Pump%20for%20Plants",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Automatic Door bell",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Automatic%20Door%20Bell/Images/preview1.jpg",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Automatic%20Door%20Bell",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Automatic Fan Speed Control",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Automatic%20Fan%20Speed%20Control/Images/preview1.jpg",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Automatic%20Fan%20Speed%20Control",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Automatic Room Temperature Controller",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Automatic%20Room%20Temperature%20Controller/Images/circuit_diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Automatic%20Room%20Temperature%20Controller",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Basic LED Blinking",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Basic%20LED%20Blinking%20Using%20Arduino/Images/Fritzing%20Circuit%20Diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Basic%20LED%20Blinking%20Using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Battery Powered Step Counter",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Battery%20Powered%20Step%20Counter/Images/Circuit%20Diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Battery%20Powered%20Step%20Counter",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Burglar Alarm",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Burglar%20Alarm/Images/preview1.jpg",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Burglar%20Alarm",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Combination Lock",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Combination%20Lock%20using%20Arduino/Images/Circuit%20Diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Combination%20Lock%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Controlling DC Motor Using IR Remote",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Controlling%20DC%20Motor%20Using%20IR%20Remote/Images/circuit%20diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Controlling%20DC%20Motor%20Using%20IR%20Remote",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Controlling LED using IR Remote",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Controlling%20LED%20using%20IR%20Remote/Images/Circuit%20Diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Controlling%20LED%20using%20IR%20Remote",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Current Sensor",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Current%20Sensor%20Using%20Arduino/images/circuit_diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Current%20Sensor%20Using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Dino Game",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Dino%20Game%20using%20Arduino/Images/Circuit%20Diagram.jpg",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Dino%20Game%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Display Time on LCD",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Display%20Time%20on%20LCD%20using%20Arduino/Images/Block%20Diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Display%20Time%20on%20LCD%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Dual Axis Solar Tracker",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Dual%20Axis%20Solar%20Tracker/Images/dual_axis_solar_tracker.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Dual%20Axis%20Solar%20Tracker",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Electronic Voting Machine",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Electronic%20Voting%20Machine/images/circuit%20diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Electronic%20Voting%20Machine",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Elevator Load Evaluation System",
+        "image": "",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Elevator%20Load%20Evaluation%20System%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Emergency Ventilator",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Emergency%20Ventilator/Images/SS-1.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Emergency%20Ventilator",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Fire Alarm",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Fire%20Alarm%20using%20Arduino/Images/SS-1.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Fire%20Alarm%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Gas Leakage Detection",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Gas%20Leakage%20Detection/images/circuit_image.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Gas%20Leakage%20Detection",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "HEART-BEAT Sensor",
+        "image": "",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/HEART-BEAT%20Sensor",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Humidity Sensing",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Humidity%20Sensing%20Using%20Arduino/Images/Fritzing%20Circuit%20Diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Humidity%20Sensing%20Using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "LCD Color Detector",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/LCD%20Color%20Detector/Circuit-Setup/Circuit.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/LCD%20Color%20Detector",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "LCD Welcome Message",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/LCD%20Welcome%20Message/Images/welcome_message_circuit.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/LCD%20Welcome%20Message",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "LED Activation With Mic in Arduino",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/LED%20Activation%20With%20Mic%20in%20Arduino/Images/led_activation_with_mic_in_arduino.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/LED%20Activation%20With%20Mic%20in%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "LED Brightness Control",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/LED%20Brightness%20Control/Gallery/Led-Brightness-control.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/LED%20Brightness%20Control",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "LED Control using Potentiometer",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/LED%20Control%20using%20Potentiometer/Images/led_control_using_potentiometer.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/LED%20Control%20using%20Potentiometer",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "LED Control using Switch",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/LED%20Control%20using%20Switch/Images/led_control_using_switch.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/LED%20Control%20using%20Switch",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Piano",
+        "image": "",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Piano%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Pressure Sensing using BMP280",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Pressure%20Sensing%20using%20BMP280/Images/pressure_sensing_using_BMP280.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Pressure%20Sensing%20using%20BMP280",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Printing IR Remote Input On LCD Screen",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Printing%20IR%20Remote%20Input%20On%20LCD%20Screen/images/circuit%20diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Printing%20IR%20Remote%20Input%20On%20LCD%20Screen",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Properties Validation of Thermistors",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Properties%20Validation%20of%20Thermistors/Images/properties_validation_of_thermistors.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Properties%20Validation%20of%20Thermistors",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "RC Car Circuit",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/RC%20Car%20Circuit/Images/Circuit%20Image.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/RC%20Car%20Circuit",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "RGB LED Scrolling",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/RGB%20LED%20Scrolling/Images/rgb_led_scrolling.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/RGB%20LED%20Scrolling",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "RGB-LED Brightness controller",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/RGB-LED%20Brightness%20controller/img/img.jpg",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/RGB-LED%20Brightness%20controller",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Reading Sensor Data",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Reading%20Sensor%20Data%20using%20Arduino/Images/Circuit%20Image.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Reading%20Sensor%20Data%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Record Frequency to SD Card",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Record%20Frequency%20to%20SD%20Card%20using%20Arduino/Images/SS-1.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Record%20Frequency%20to%20SD%20Card%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Room Brightness Sensing",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Room%20Brightness%20Sensing%20using%20Arduino/Images/room_brightness_sensing_using_arduino.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Room%20Brightness%20Sensing%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Servo Motor Rotation",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Servo%20Motor%20Rotation/Images/ServoMotor_Circuit.PNG",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Servo%20Motor%20Rotation",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Smart Street LIght",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Smart%20Street%20LIght/Gallery/street_light.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Smart%20Street%20LIght",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Smoke Detection",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Smoke%20Detection%20Using%20Arduino/Images/smoke_detection_using_arduino.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Smoke%20Detection%20Using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Social Distance Detector",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Social%20Distance%20Detector/Images/Circuit-Diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Social%20Distance%20Detector",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Speeding Motor",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Speeding%20Motor%20Using%20Arduino/Images/Circuit%20Diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Speeding%20Motor%20Using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Storing Sensory Data to SD Card",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Storing%20Sensory%20Data%20to%20SD%20Card/Images/Circuit%20Diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Storing%20Sensory%20Data%20to%20SD%20Card",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Temperature Sensing",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Temperature%20Sensing%20using%20Arduino/Images/circuit_diagram.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Temperature%20Sensing%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Voltage Sensing",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/Arduino%20Projects/Voltage%20Sensing%20using%20Arduino/Images/SS-1.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Voltage%20Sensing%20using%20Arduino",
+        "type": "arduinoCard"
+    },
+    {
+        "name": "Basic LED Blink",
+        "image": "https://raw.githubusercontent.com/SarthakSKumar/IoT-Projects-and-Scripts/master/ESP%20Projects/Basic%20LED%20Blink%20using%20ESP32/Images/LED-blinking-ESP32-circuit.png",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/ESP%20Projects/Basic%20LED%20Blink%20using%20ESP32",
+        "type": "espCard"
+    },
+    {
+        "name": "Temperature Humidity",
+        "image": "https://camo.githubusercontent.com/2eefd16d31de5800d250dca079ce3093264704c2d28cc978e990443fc8640995/68747470733a2f2f69302e77702e636f6d2f72616e646f6d6e6572647475746f7269616c732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f30342f45535033322d776974682d444854313144485432322d54656d70657261747572652d616e642d48756d69646974792d53656e736f722d7573696e672d41726475696e6f2d4944452e6a70673f726573697a653d383238253243343636267175616c6974793d3130302673747269703d616c6c2673736c3d31",
+        "link": "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/ESP%20Projects/Temperature%20Humidity%20measure%20using%20ESP32",
+        "type": "espCard"
+    }
+]
