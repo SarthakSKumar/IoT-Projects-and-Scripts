@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html
+    lang="en"
+    class="no-js"
+>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+        />
+        <title>Ambient Canvas Backgrounds | Coalesce | Codrops</title>
+        <meta
+            name="description"
+            content="A set of animated ambient canvas backgrounds with different effects"
+        />
+        <meta
+            name="keywords"
+            content="canvas, ambient, background, animation, javascript, demo, web development"
+        />
+        <meta
+            name="author"
+            content="Codrops"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="base.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="styles.css"
+        />
+        <script>
+            document.documentElement.className = "js";
+            var supportsCssVars = function () {
+                var e,
+                    t = document.createElement("style");
+                return (
+                    (t.innerHTML = "root: { --tmp-var: bold; }"),
+                    document.head.appendChild(t),
+                    (e = !!(
+                        window.CSS &&
+                        window.CSS.supports &&
+                        window.CSS.supports("font-weight", "var(--tmp-var)")
+                    )),
+                    t.parentNode.removeChild(t),
+                    e
+                );
+            };
+            supportsCssVars() ||
+                alert("Please view this demo in a modern browser that supports CSS Variables.");
+        </script>
+    </head>
+    <body class="demo-4">
+        <main>
+            <div class="frame"></div>
+            <div class="content content--canvas"></div>
+        </main>
+        <script src="noise.min.js"></script>
+        <script src="util.js"></script>
+        <script src="coalesce.js"></script>
+    </body>
+</html>
