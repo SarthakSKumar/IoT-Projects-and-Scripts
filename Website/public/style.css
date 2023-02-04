@@ -78,7 +78,7 @@ body {
 }
 
 .card {
-    @apply h-[12em] md:h-[16em] lg:h-[20em] sm:px-9 sm:mt-8 sm:py-8 px-2 mt-8 py-6 justify-center items-center text-center;
+    @apply h-[12em] md:h-[16em] lg:h-[20em] sm:px-12 sm:mt-8 sm:py-8 px-16 mt-8 py-6 justify-center items-center text-center;
     position: relative;
 }
 
