@@ -34,6 +34,8 @@ body {
     border-radius: 10%;
 }
 .back {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 35px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -70,7 +72,7 @@ body {
 }
 
 .card-container {
-    @apply grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 sm:px-[2.5rem] mx-[2rem] px-[0.5rem];
+    @apply grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 sm:px-[2.5rem] mx-[2rem] px-[0.5rem] mb-[2.5rem];
 }
 
 .hide {
@@ -107,4 +109,14 @@ body {
     .topnav {
         display: none;
     }
+}
+
+/* loader */
+.loader {
+    background: rgb(26, 25, 25) url("../images/loader.gif") no-repeat center center;
+    background-size: 60%;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
 }

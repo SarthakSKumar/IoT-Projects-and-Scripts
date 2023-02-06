@@ -22,6 +22,7 @@
         <title>IoT Projects and Scripts</title>
     </head>
     <body>
+        <div class="loader"></div>
         <iframe
             src="Background/animated-background.html"
             style="
@@ -41,7 +42,6 @@
         >
         </iframe>
 
-        <!-- <canvas id="canvas"></canvas> -->
         <h1 class="title">
             <span class="text-gradient-to-r from-indigo-500 to-pink-500 text-center"
                 >IoT Projects And Scripts</span
@@ -126,13 +126,13 @@
                     <div class="card allProject {{type}} ">
                         <div class="container">
                             <div class="front">
-                                <img src="{{image}}" class="circuit-img" alt="" />
+                                <img src={{image}} class="circuit-img" alt="" />
                             </div>
                             <div class="back">
                                 <a
                                     href="{{link}}"
                                     target="_blank"
-                                    class="links text-4xl text-white"
+                                    class="links text-4xl text-white hover:scale-125"
                                 >
                                     View Code</a>
                             </div>
@@ -144,10 +144,18 @@
             </script>
         </div>
         <div class="contributors hide"></div>
+        <footer class="bg-[rgba(255,255,255,0.4)] h-[3rem] mt-4">
+            <ul class="flex space-x-4 justify-center items-center pt-3">
+                <li>Contact me</li>
+                <li>Contact me</li>
+                <li>Contact me</li>
+                <li>Contact me</li>
+                <li>Contact me</li>
+            </ul>
+        </footer>
         <script
             src="main.js"
             defer
         ></script>
-        <!-- <script src="background.js"></script> -->
     </body>
 </html>
