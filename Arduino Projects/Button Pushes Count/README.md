@@ -18,7 +18,7 @@ Count the number of button pushes to perform respective actions
 ## Setup instructions:
 - Assemble the circuit as shown below.
 - Make sure to connect one end of the button to ground(i.e. GND)
-- Upload the code provided [here](https://github.com/pragyakhanna11/IoT-Spot/blob/main/Arduino/Alternate%20LED%20Blinking/alternate_led_blinking.ino)
+- Upload the code provided [here](https://github.com/Soumya-Kushwaha/IoT-Projects-and-Scripts/blob/c8c09ef6d29163d6d019be86692f6a204fa950fe/Arduino%20Projects/Button%20Pushes%20Count/Button%20Push%20Count.cpp)
 - Run to see the project in action!
 
 ------------
