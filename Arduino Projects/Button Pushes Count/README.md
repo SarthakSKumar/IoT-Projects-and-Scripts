@@ -3,13 +3,12 @@
 To count number of button pushes using arduino
 
 ## Purpose:
-Cout the number of button pushes to perform respective actions
+Count the number of button pushes to perform respective actions
 
 ## Short Description:
 **Requirements:**
 - Arduino UNO
 - Button
-(Tinkercad can also be used)
 
 ## Workflow:
 - First we initialise the button push value
@@ -23,7 +22,7 @@ Cout the number of button pushes to perform respective actions
 - Run to see the project in action!
 ------------
 ## Output:
-(https://github.com/pragyakhanna11/IoT-Spot/blob/main/Arduino/Alternate%20LED%20Blinking/Images/alternate_led_blinking.png)
+![image](https://user-images.githubusercontent.com/87495134/218240268-c609f91e-6bfc-499c-b82b-184f09389106.png)
 ------------
 
 ## Author:
