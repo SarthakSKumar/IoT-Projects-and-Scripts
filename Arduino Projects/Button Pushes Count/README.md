@@ -22,7 +22,7 @@ Count the number of button pushes to perform respective actions
 - Run to see the project in action!
 ------------
 ## Output:
-![image](https://user-images.githubusercontent.com/87495134/218240268-c609f91e-6bfc-499c-b82b-184f09389106.png)
+![image](https://user-images.githubusercontent.com/87495134/218240294-960012a7-4985-4dc9-8df6-0f6d50dc5353.png)
 ------------
 
 ## Author:
