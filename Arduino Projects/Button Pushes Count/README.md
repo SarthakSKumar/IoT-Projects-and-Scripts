@@ -20,9 +20,7 @@ Count the number of button pushes to perform respective actions
 - Make sure to connect one end of the button to ground(i.e. GND)
 - Upload the code provided [here](https://github.com/pragyakhanna11/IoT-Spot/blob/main/Arduino/Alternate%20LED%20Blinking/alternate_led_blinking.ino)
 - Run to see the project in action!
-------------
-## Output:
-![image](https://user-images.githubusercontent.com/87495134/218240294-960012a7-4985-4dc9-8df6-0f6d50dc5353.png)
+
 ------------
 
 ## Author:
