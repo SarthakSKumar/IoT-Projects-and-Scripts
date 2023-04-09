@@ -5,149 +5,27 @@
         <link
             rel="icon"
             type="image/svg+xml"
-            href="images/favicon.ico"
+            href="/vite.svg"
         />
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
-
+        <!-- ----------Boxicons------------- -->
         <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
             rel="stylesheet"
-            type="text/css"
-            href="public/style.css"
         />
-        <title>IoT Projects and Scripts</title>
+
+        <title>IoT</title>
     </head>
     <body>
-        <iframe
-            src="Background/animated-background.html"
-            style="
-                position: fixed;
-                top: 0;
-                left: 0;
-                bottom: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
-                border: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                z-index: -1;
-            "
-        >
-        </iframe>
-
-        <!-- <canvas id="canvas"></canvas> -->
-        <h1 class="title">
-            <span class="text-gradient-to-r from-indigo-500 to-pink-500 text-center"
-                >IoT Projects And Scripts</span
-            >
-        </h1>
-        <nav class="bg-[rgba(232,226,226,0.2)] z-10">
-            <div class="topnav">
-                <div class="relative flex h-16 items-center justify-between">
-                    <div
-                        class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
-                    >
-                        <div class="hidden sm:ml-6 sm:block">
-                            <div class="flex space-x-4">
-                                <a
-                                    href="#"
-                                    class="navlinks allProjectbtn"
-                                    aria-current="page"
-                                    >All Projects</a
-                                >
-
-                                <a
-                                    href="#"
-                                    class="navlinks arduinobtn"
-                                    >Arduino Projects</a
-                                >
-
-                                <a
-                                    href="#"
-                                    class="navlinks espbtn"
-                                    >ESP Projects</a
-                                >
-                                <a
-                                    href="#"
-                                    class="navlinks contributorsbtn"
-                                    >Contributors</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mobile menu, show/hide based on menu state. -->
-            <div
-                class="sm:hidden"
-                id="mobile-menu"
-            >
-                <div class="space-y-1 px-2 pt-2 pb-3">
-                    <a
-                        href="#"
-                        class="navlinkssm allProjectbtn"
-                        aria-current="page"
-                        >All Projects</a
-                    >
-
-                    <a
-                        href="#"
-                        class="navlinkssm arduinobtn"
-                        >Arduino Projects</a
-                    >
-
-                    <a
-                        href="#"
-                        class="navlinkssm espbtn"
-                        >ESP Projects</a
-                    >
-                    <a
-                        href="#"
-                        class="navlinkssm contributorsbtn"
-                        >Contributors</a
-                    >
-                </div>
-            </div>
-        </nav>
-        <!-- Main Body section of grids -->
-        <div class="card-container">
-            <script
-                id="card-template"
-                type="text/x-handlebars-template"
-            >
-                {{#each cards}}
-                    <div class="card allProject {{type}} ">
-                        <div class="container">
-                            <div class="front">
-                                <img src="{{image}}" class="circuit-img" alt="" />
-                            </div>
-                            <div class="back">
-                                <a
-                                    href="{{link}}"
-                                    target="_blank"
-                                    class="links text-4xl text-white"
-                                >
-                                    View Code</a>
-                            </div>
-
-                        </div>
-                        <p class="names">{{name}}</p>
-                    </div>
-                {{/each}}
-            </script>
-        </div>
-        <div class="contributors hide"></div>
+        <div id="backdrop-root"></div>
+        <div id="overlay-root"></div>
+        <div id="root"></div>
         <script
-            src="main.js"
-            defer
+            type="module"
+            src="/src/main.jsx"
         ></script>
-        <!-- <script src="background.js"></script> -->
     </body>
 </html>
