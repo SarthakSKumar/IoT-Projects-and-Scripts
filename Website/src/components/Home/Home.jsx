@@ -13,7 +13,7 @@ const Home = () => {
                                 <div className='card-container w-[10rem] h-[8rem] ss:w-[15rem] ss:h-[9rem] sm:w-[17rem] sm:h-[10rem] md:w-[20rem] md:h-[13rem]'>
                                     <img
                                         src={item.image}
-                                        alt='img'
+                                        alt={item.name}
                                         className='w-full h-full p-0 m-0'
                                     />
                                     <div className='card-data w-full h-[5rem] sm:h-[6rem] lg:h-[8rem] px-2 py-1 m-0 bg-[rgba(0,0,0,0.5)] relative bottom-[2.0rem] ss:bottom-[2.1rem] sm:bottom-[2.3rem] rounded-xl'>
