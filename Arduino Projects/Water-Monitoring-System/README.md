@@ -1,0 +1,11 @@
+# Water-Monitoring-System
+# ABSTRACT
+The Water Monitoring System using ESP32 and HC-SR04 Ultrasonic Sensor with WiFi module is a project that aims to provide an automated and reliable solution for monitoring the water level in various settings. The system consists of an ESP32 development board, 
+HC-SR04 ultrasonic sensor, WiFi module, and a user interface. The HC-SR04 ultrasonic sensor is used to measure the distance of the water level from the sensor. The sensor sends a sound wave and measures the time it takes for the wave to bounce back from the water surface. This information is then processed by the ESP32 to calculate the water level. The ESP32 is a powerful microcontroller with built-in WiFi capabilities, making it an ideal choice for this project. The WiFi module enables the system to send the water level data to a remote server or a user interface, allowing users to monitor the water level from anywhere in the world. The user interface can be a mobile application or a web-based dashboard, which displays the water level data in real-time. Users can set thresholds for water level alarms and receive alerts when the water level reaches critical levels. The Water Monitoring System using ESP32 and HC-SR04 Ultrasonic Sensor with WiFi module has several applications, including water tanks, swimming pools, and irrigation systems. The system provides an efficient and cost-effective solution for water level monitoring, reducing the need for manual intervention and minimizing the risk of water wastage or damage due to overfilling. In conclusion, the Water Monitoring System using ESP32 and HC-SR04 Ultrasonic Sensor with WiFi module is an innovative solution for water level monitoring, offering real-time data and remote monitoring capabilities.  
+![image](https://user-images.githubusercontent.com/92522855/235346415-c58bb83e-35fb-422c-9b81-03a76f64c68e.png)
+# SETUP
+![image](https://user-images.githubusercontent.com/92522855/235346438-b5ff6113-3561-4092-8862-7d903c055537.png)
+# REFERENCES
+https://esp32io.com/tutorials/esp32-ultrasonicsensor-piezo-buzzer  
+https://randomnerdtutorials.com/installing-theesp32-board-in-arduino-ide-windows-instructions/ 
+https://randomnerdtutorials.com/esp32-hc-sr04ultrasonic-arduino/ 
