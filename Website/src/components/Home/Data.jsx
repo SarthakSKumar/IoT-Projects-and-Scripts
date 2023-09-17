@@ -156,7 +156,7 @@ export const data = [
     {
         id: "23",
         name: "HEART-BEAT Sensor",
-        image: "",
+        image: "https://user-images.githubusercontent.com/98482003/198891469-9dce6218-cf3a-4ea9-ad4b-f2b425fb2aa6.png",
         link: "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/HEART-BEAT%20Sensor",
         type: "arduinoCard",
     },
@@ -212,7 +212,7 @@ export const data = [
     {
         id: "31",
         name: "Piano",
-        image: "",
+        image: "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/blob/master/Arduino%20Projects/Piano%20using%20Arduino/img/Piano.png?raw=true",
         link: "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects/Piano%20using%20Arduino",
         type: "arduinoCard",
     },
@@ -352,7 +352,7 @@ export const data = [
     {
         id: "50",
         name: "Temperature Humidity",
-        image: "",
+        image: "https://camo.githubusercontent.com/38666061103e5f24bcbe90b813a9e6ce2085487b521dc7064c517a526e8505a8/68747470733a2f2f69302e77702e636f6d2f72616e646f6d6e6572647475746f7269616c732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f30342f6468745f65737033325f62622e706e673f726573697a653d373134253243383932267175616c6974793d3130302673747269703d616c6c2673736c3d31",
         link: "https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/ESP%20Projects/Temperature%20Humidity%20measure%20using%20ESP32",
         type: "espCard",
     },
