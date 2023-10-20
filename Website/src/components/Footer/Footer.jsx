@@ -24,69 +24,69 @@ const Footer = () => {
                     <div class='grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3'>
                         <div>
                             <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>
-                                Resources
+                                Contributing
                             </h2>
                             <ul class='text-gray-600 dark:text-gray-400 font-medium'>
                                 <li class='mb-4'>
                                     <a
-                                        href='https://www.arduino.cc/en/Guide'
+                                        href='https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/blob/master/CODE_OF_CONDUCT'
                                         class='hover:underline'
                                     >
-                                        Arduino
+                                        Code of Conduct
                                     </a>
                                 </li>
                                 <li>
                                     <a
-                                        href='https://www.geeksforgeeks.org/introduction-to-internet-of-things-iot-set-1/'
+                                        href='https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/blob/master/CONTRIBUTING.md'
                                         class='hover:underline'
                                     >
-                                        GeeksFoeGeeks
+                                        Guidelines
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div>
                             <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>
-                                Follow us
+                                About
                             </h2>
                             <ul class='text-gray-600 dark:text-gray-400 font-medium'>
                                 <li class='mb-4'>
                                     <a
-                                        href='https://github.com/themesberg/flowbite'
+                                        href='https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/blob/master/README.md'
                                         class='hover:underline '
                                     >
-                                        Github
+                                        About Repo
                                     </a>
                                 </li>
                                 <li>
                                     <a
-                                        href='https://discord.gg/4eeurUVvTy'
+                                        href='https://github.com/SarthakSKumar'
                                         class='hover:underline'
                                     >
-                                        LinkedIn
+                                        Maintainer
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div>
                             <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>
-                                Legal
+                                Projects
                             </h2>
                             <ul class='text-gray-600 dark:text-gray-400 font-medium'>
                                 <li class='mb-4'>
                                     <a
-                                        href='#'
+                                        href='https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/Arduino%20Projects'
                                         class='hover:underline'
                                     >
-                                        Privacy Policy
+                                        Arduino Projects
                                     </a>
                                 </li>
                                 <li>
                                     <a
-                                        href='#'
+                                        href='https://github.com/SarthakSKumar/IoT-Projects-and-Scripts/tree/master/ESP%20Projects'
                                         class='hover:underline'
                                     >
-                                        Terms &amp; Conditions
+                                        ESP Projects
                                     </a>
                                 </li>
                             </ul>
@@ -106,7 +106,7 @@ const Footer = () => {
                         . All Rights Reserved.
                     </span>
                     <div class='flex mt-4 space-x-6 sm:justify-center sm:mt-0'>
-                        <a
+                        {/* <a
                             href='https://www.instagram.com/sarthakskumar/'
                             target='_blank'
                             class='text-gray-500 hover:text-gray-900 dark:hover:text-white'
@@ -124,7 +124,7 @@ const Footer = () => {
                                 />
                             </svg>
                             <span class='sr-only'>Instagram page</span>
-                        </a>
+                        </a> 
                         <a
                             href='#'
                             target='_blank'
@@ -157,7 +157,7 @@ const Footer = () => {
                                 />
                             </svg>
                             <span class='sr-only'>GitHub account</span>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
