@@ -31,7 +31,7 @@ git clone <HTTPS link>
 
 ## 📩 Connect with me
 Don't hesitate to ping me🤝. If you want to discuss this further, I'm always open to a conversation!!✔ <br>
-Shoot me an email <a href = "mailto:sskworld9742@gmail.com">here</a> for official discussions. <br>
+Shoot me an email <a href = "mailto:sarthakskumar7@gmail.com">here</a> for official discussions. <br>
 <p align = "justify">
  <a href = "https://www.linkedin.com/in/sarthakskumar/"><img src = "https://github.com/SarthakSKumar/SarthakSKumar/blob/main/Assets/Social/Linkedin.png" height = 40 width = 40/></a>
  <a href = "https://facebook.com/sarthaks.kumar/"><img src = "https://github.com/SarthakSKumar/SarthakSKumar/blob/main/Assets/Social/Facebook.png" height = 40 width = 40/></a>
