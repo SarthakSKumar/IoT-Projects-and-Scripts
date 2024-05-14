@@ -8,11 +8,11 @@
 >- Before sending your pull requests, make sure that you read the whole guidelines. If you have any doubts about the contributing guide, please feel free to reach out.
 <br>
 
-###### Kickstart your journey into the world 🌍 of IOT. This repo contains scripts for various Arduino-based projects. Discover 🚢, Learn ✏️, Engage 👨‍💻 and Contribute
+###### Kickstart your journey into the world 🌍 of IOT. This repo contains scripts for various Arduino-based projects. Discover 🚢, Learn ✏️, Engage 👨‍💻 and Contribute. 
 
 # 📈 Contributing to this Repo
 	1.	Fork this repository.
-	2.	Clone the forked repository. git clone https://github.com/<your-github-username>/project_name.git
+	2.	Clone the forked repository. git clone https://github.com/SarthakSKumar/IoT-Projects-and-Scripts.git
 	3.	Navigate to the project directory.
 	4.	Creating a new branch (IMP) This is one of the very important steps that you should follow to contribute to Open Source. A branch helps to manage the workflow, isolate your code and does not create a mess.
 
